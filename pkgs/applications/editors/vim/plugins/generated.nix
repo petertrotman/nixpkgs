@@ -8230,6 +8230,18 @@ final: prev:
     meta.homepage = "https://github.com/nvchad/nvterm/";
   };
 
+  oatmeal-nvim = buildVimPlugin {
+    pname = "oatmeal.nvim";
+    version = "2024-03-15";
+    src = fetchFromGitHub {
+      owner = "dustinblackman";
+      repo = "oatmeal.nvim";
+      rev = "be99ac64ba18621005b2160251c15d8667875ce5";
+      sha256 = "";
+    };
+    meta.homepage = "https://github.com/dustinblackman/oatmeal.nvim/";
+  };
+
   obsidian-nvim = buildVimPlugin {
     pname = "obsidian.nvim";
     version = "2024-03-01";
