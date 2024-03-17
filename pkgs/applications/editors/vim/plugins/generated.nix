@@ -8237,7 +8237,7 @@ final: prev:
       owner = "dustinblackman";
       repo = "oatmeal.nvim";
       rev = "be99ac64ba18621005b2160251c15d8667875ce5";
-      sha256 = "";
+      sha256 = "sha256-R97Y+5yMrMzqcWAQZoH/Z+1XMwu8gAjGJ9ravxr5C2M=";
     };
     meta.homepage = "https://github.com/dustinblackman/oatmeal.nvim/";
   };
