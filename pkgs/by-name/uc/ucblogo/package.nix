@@ -1,5 +1,6 @@
 { wxGTK32
 , lib
+, autoreconfHook
 , stdenv
 , fetchFromGitHub
 }:
@@ -16,6 +17,7 @@ stdenv.mkDerivation rec {
   };
 
   nativeBuildInputs = [
+    autoreconfHook
   ];
 
   buildInputs = [
