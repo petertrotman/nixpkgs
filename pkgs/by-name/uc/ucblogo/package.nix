@@ -1,4 +1,8 @@
 { wxGTK32
+, gettext
+, libtool
+, gtk-doc
+, intltool
 , autoreconfHook
 , fetchFromGitHub
 , lib
@@ -20,6 +24,10 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [
     autoreconfHook
     pkg-config
+    gettext
+    libtool
+    gtk-doc
+    intltool
     wxGTK32
   ];
 
