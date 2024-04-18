@@ -1,4 +1,4 @@
-{ gettext, libtool, wxGTK32
+{ gnum4, wxGTK32
 , lib
 , autoreconfHook
 , stdenv
@@ -18,8 +18,7 @@ stdenv.mkDerivation rec {
 
   nativeBuildInputs = [
     autoreconfHook
-    gettext
-    libtool
+    gnum4
     wxGTK32
   ];
 
