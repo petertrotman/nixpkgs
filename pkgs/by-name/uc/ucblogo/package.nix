@@ -1,8 +1,9 @@
-{ gnum4, wxGTK32
-, lib
+{ wxGTK32
 , autoreconfHook
-, stdenv
 , fetchFromGitHub
+, lib
+, pkg-config
+, stdenv
 }:
 
 stdenv.mkDerivation rec {
@@ -18,7 +19,7 @@ stdenv.mkDerivation rec {
 
   nativeBuildInputs = [
     autoreconfHook
-    gnum4
+    pkg-config
     wxGTK32
   ];
 
