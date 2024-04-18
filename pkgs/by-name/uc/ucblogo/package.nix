@@ -5,7 +5,7 @@
 , lib
 , pkg-config
 , stdenv
-, texinfo
+, tetex
 }:
 
 stdenv.mkDerivation rec {
@@ -23,7 +23,7 @@ stdenv.mkDerivation rec {
     autoconf-archive
     autoreconfHook
     pkg-config
-    texinfo
+    tetex
     wxGTK32
   ];
 
